@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <aside id="mySidenav" class="sidenav">
+        <div class="bg-dark-blue">
+            <div class="relative flex justify-center px-4 py-3 border-b border-gray-500">
+                <img class="h-12" src="images/Brainchild.png" alt="">
+                <div class="absolute right-0 flex items-center justify-center w-8 h-8 mr-2 text-xl text-white -translate-y-1/2 rounded-full hover:text-blue-400 top-1/2" onclick="closeNav()">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+            </div>
+            <!-- Side Menu Start -->
+            <ul class="flex-col p-4 side-bar scroller-y">
+                <!-- single menu start -->
+                <li class="side-menu">
+                    <div class="flex justify-center">
+                        <div class="flex justify-between w-full px-4 py-3 text-white rounded-lg">
+                            <div>
+                                <span class="pr-2"><i class="fa-solid fa-gauge-high"></i></span> Dashboard
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Submenu start -->
+                <div class="mt-2 mb-2 overflow-hidden transition-all ease-out panel max-h-0">
+                    <ul class="flex flex-col overflow-hidden divide-y rounded-md bg-primary">
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                    </ul>
+                </div>
+                <!-- Submenu end -->
+                <!-- single menu end -->
+                <!-- single menu start -->
+                <li class="side-menu">
+                    <div class="flex justify-center">
+                        <div class="flex justify-between w-full px-4 py-3 text-white rounded-lg">
+                            <div>
+                                <span class="pr-2"><i class="fa-solid fa-gauge-high"></i></span> Dashboard
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Submenu start -->
+                <div class="mt-2 mb-2 overflow-hidden transition-all ease-out panel max-h-0">
+                    <ul class="flex flex-col overflow-hidden divide-y rounded-md bg-primary">
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                    </ul>
+                </div>
+                <!-- Submenu end -->
+                <!-- single menu end -->
+                <!-- single menu start -->
+                <li class="side-menu">
+                    <div class="flex justify-center">
+                        <div class="flex justify-between w-full px-4 py-3 text-white rounded-lg">
+                            <div>
+                                <span class="pr-2"><i class="fa-solid fa-gauge-high"></i></span> Dashboard
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Submenu start -->
+                <div class="mt-2 mb-2 overflow-hidden transition-all ease-out panel max-h-0">
+                    <ul class="flex flex-col overflow-hidden divide-y rounded-md bg-primary">
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                    </ul>
+                </div>
+                <!-- Submenu end -->
+                <!-- single menu end -->
+                <!-- single menu start -->
+                <li class="side-menu">
+                    <div class="flex justify-center">
+                        <div class="flex justify-between w-full px-4 py-3 text-white rounded-lg">
+                            <div>
+                                <span class="pr-2"><i class="fa-solid fa-gauge-high"></i></span> Dashboard
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Submenu start -->
+                <div class="mt-2 mb-2 overflow-hidden transition-all ease-out panel max-h-0">
+                    <ul class="flex flex-col overflow-hidden divide-y rounded-md bg-primary">
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                    </ul>
+                </div>
+                <!-- Submenu end -->
+                <!-- single menu end -->
+                <!-- single menu start -->
+                <li class="side-menu">
+                    <div class="flex justify-center">
+                        <div class="flex justify-between w-full px-4 py-3 text-white rounded-lg">
+                            <div>
+                                <span class="pr-2"><i class="fa-solid fa-gauge-high"></i></span> Dashboard
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Submenu start -->
+                <div class="mt-2 mb-2 overflow-hidden transition-all ease-out panel max-h-0">
+                    <ul class="flex flex-col overflow-hidden divide-y rounded-md bg-primary">
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                    </ul>
+                </div>
+                <!-- Submenu end -->
+                <!-- single menu end -->
+                <!-- single menu start -->
+                <li class="side-menu">
+                    <div class="flex justify-center">
+                        <div class="flex justify-between w-full px-4 py-3 text-white rounded-lg">
+                            <div>
+                                <span class="pr-2"><i class="fa-solid fa-gauge-high"></i></span> Dashboard
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Submenu start -->
+                <div class="mt-2 mb-2 overflow-hidden transition-all ease-out panel max-h-0">
+                    <ul class="flex flex-col overflow-hidden divide-y rounded-md bg-primary">
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                    </ul>
+                </div>
+                <!-- Submenu end -->
+                <!-- single menu end -->
+                <!-- single menu start -->
+                <li class="side-menu">
+                    <div class="flex justify-center">
+                        <div class="flex justify-between w-full px-4 py-3 text-white rounded-lg">
+                            <div>
+                                <span class="pr-2"><i class="fa-solid fa-gauge-high"></i></span> Dashboard
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Submenu start -->
+                <div class="mt-2 mb-2 overflow-hidden transition-all ease-out panel max-h-0">
+                    <ul class="flex flex-col overflow-hidden divide-y rounded-md bg-primary">
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                    </ul>
+                </div>
+                <!-- Submenu end -->
+                <!-- single menu end -->
+                <!-- single menu start -->
+                <li class="side-menu">
+                    <div class="flex justify-center">
+                        <div class="flex justify-between w-full px-4 py-3 text-white rounded-lg">
+                            <div>
+                                <span class="pr-2"><i class="fa-solid fa-gauge-high"></i></span> Dashboard
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Submenu start -->
+                <div class="mt-2 mb-2 overflow-hidden transition-all ease-out panel max-h-0">
+                    <ul class="flex flex-col overflow-hidden divide-y rounded-md bg-primary">
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                    </ul>
+                </div>
+                <!-- Submenu end -->
+                <!-- single menu end -->
+                <!-- single menu start -->
+                <li class="side-menu">
+                    <div class="flex justify-center">
+                        <div class="flex justify-between w-full px-4 py-3 text-white rounded-lg">
+                            <div>
+                                <span class="pr-2"><i class="fa-solid fa-gauge-high"></i></span> Dashboard
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Submenu start -->
+                <div class="mt-2 mb-2 overflow-hidden transition-all ease-out panel max-h-0">
+                    <ul class="flex flex-col overflow-hidden divide-y rounded-md bg-primary">
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                    </ul>
+                </div>
+                <!-- Submenu end -->
+                <!-- single menu end -->
+                <!-- single menu start -->
+                <li class="side-menu">
+                    <div class="flex justify-center">
+                        <div class="flex justify-between w-full px-4 py-3 text-white rounded-lg">
+                            <div>
+                                <span class="pr-2"><i class="fa-solid fa-gauge-high"></i></span> Dashboard
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Submenu start -->
+                <div class="mt-2 mb-2 overflow-hidden transition-all ease-out panel max-h-0">
+                    <ul class="flex flex-col overflow-hidden divide-y rounded-md bg-primary">
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                    </ul>
+                </div>
+                <!-- Submenu end -->
+                <!-- single menu end -->
+                <!-- single menu start -->
+                <li class="side-menu">
+                    <div class="flex justify-center">
+                        <div class="flex justify-between w-full px-4 py-3 text-white rounded-lg">
+                            <div>
+                                <span class="pr-2"><i class="fa-solid fa-gauge-high"></i></span> Dashboard
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Submenu start -->
+                <div class="mt-2 mb-2 overflow-hidden transition-all ease-out panel max-h-0">
+                    <ul class="flex flex-col overflow-hidden divide-y rounded-md bg-primary">
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                        <li class="px-4 py-1.5 cursor-pointer text-white hover:bg-gray-600">Submenu</li>
+                    </ul>
+                </div>
+                <!-- Submenu end -->
+                <!-- single menu end -->
+            </ul>
+            <!-- Side Menu End -->
+        </div>
+    </aside>
+    <section id="main" class="main">
+        <nav class="flex items-center justify-between w-full px-4 py-3 bg-white">
+            <div onclick="openNav()" class="text-3xl text-black">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="relative flex items-center ml-6 md:ml-2 xl:ml-4 2xl:ml-10 gap-x-2 md:gap-x-4 lg:gap-x-2 xl:gap-x-2">
+                <!-- Icon -->
+                <div class="relative dropdown">
+                  <div class="flex items-center mr-4 dropdown-toggle hidden-arrow" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span class="text-white bg-red-500 absolute rounded-full text-xs -mt-6 ml-6 py-0 px-1.5 h-6 w-6 flex justify-center items-center border-2 border-white">12</span>
+                  </div>
+                  <ul class="absolute left-0 right-auto z-50 hidden float-left py-2 m-0 mt-0 text-base text-left list-none bg-white border-none rounded-lg shadow-lg md:left-auto md:right-0 dropdown-menu min-w-max bg-clip-padding" aria-labelledby="dropdownMenuButton1">
+                    <li>
+                      <a class="block w-full px-4 py-2 text-lg font-normal bg-transparent rounded dropdown-item whitespace-nowrap hover:bg-blue-100" href="#">Action</a>
+                    </li>
+                    <li>
+                      <a class="block w-full px-4 py-2 text-lg font-normal bg-transparent rounded dropdown-item whitespace-nowrap hover:bg-blue-100" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="block w-full px-4 py-2 text-lg font-normal bg-transparent rounded dropdown-item whitespace-nowrap hover:bg-blue-100" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="relative dropdown">
+                  <div class="flex items-center mr-4 hover: focus: dropdown-toggle hidden-arrow " href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bell" class="w-8 h-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                      <path fill="currentColor" d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z">
+                      </path>
+                    </svg>
+                    <span class="text-white bg-red-500 absolute rounded-full text-xs -mt-6 ml-4 py-0 px-1.5 h-6 w-6 flex justify-center items-center border-2 border-white">1</span>
+                  </div>
+                  <div class="absolute left-auto z-50 hidden float-left py-2 m-0 mt-0 overflow-hidden text-base text-left list-none bg-white border-none rounded-lg shadow-lg -right-20 md:right-0 dropdown-menu w-80 md:w-96 bg-clip-padding" aria-labelledby="dropdownMenuButton1">
+                    <div class="flex justify-between p-4 rounded-t-md gap-x-2 bg-zinc-100">
+                      <p class="font-medium text-gray">Notifications</p>
+                      <p class="font-medium cursor-pointer text-primary">Mark as all read</p>
+                    </div>
+                    <ul style="max-height: 30vh;" class="overflow-hidden">
+                      <li data-bs-toggle="modal" data-bs-target="#appointmentSchedule">
+                        <a class="block w-full px-4 py-2 mt-0.5 text-lg font-normal bg-white dropdown-item whitespace-nowrap hover:bg-blue-100" href="#">
+                          <div class="text-xs font-light text-gray">
+                            <p>You've a new appointment on <span class="font-bold">"12th feb 2022, 11:30 PM"</span>
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+                      <li data-bs-toggle="modal" data-bs-target="#appointmentSchedule">
+                        <a class="block w-full px-4 py-2 mt-0.5 text-lg font-normal bg-blue-200 dropdown-item whitespace-nowrap hover:bg-blue-100" href="#">
+                          <div class="text-xs font-light text-primary-dark">
+                            <p>You've a new appointment on <span class="font-bold">"12th feb 2022, 11:30 PM"</span>
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+                      
+                    </ul>
+                    <div class="px-4 py-2 text-sm font-medium text-center cursor-pointer text-secondary rounded-b-md"> View all
+                      notifications </div>
+                  </div>
+                </div>
+                <div class="relative dropdown">
+                  <div class="flex items-center dropdown-icon">
+                    <img src="images/profile-dp.jpg" class="w-10 h-10 rounded-full shadow-lg" alt="" >
+                    <i class="p-2 fa-solid fa-angle-down"></i>
+                  </div>
+                  <div class="absolute right-0 left-auto z-50 float-left m-0 mt-0 overflow-hidden text-base text-left list-none bg-gray-200 border-none rounded-lg shadow-lg dropdown-menu min-w-max">
+                    <ul class="p-2">
+                      <li>
+                        <a href="#">
+                          <div class="flex items-center gap-2 p-2 pl-2 bg-white rounded-lg">
+                            <div class="flex justify-center flex-none overflow-hidden rounded-full shadow-sm w-14 h-14">
+                              <img class="rounded-full" src="images/profile-dp.jpg" alt="">
+                            </div>
+                            <div style="min-width: 10rem;" class="w-full">
+                              <h4 class="text-sm font-medium text-dark">Md. Asad Hasan Anik </h4>
+                              <p class="text-sm font-light text-dark">Dhaka, Bangladesh</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="mt-0.5">
+                        <a class="block w-full px-4 py-4 text-lg font-medium bg-white rounded-md dropdown-item whitespace-nowrap hover:bg-gray-100" href="#">My Profile</a>
+                      </li>
+                      <li class="mt-0.5">
+                        <a class="block w-full px-4 py-4 text-lg font-medium bg-white rounded-md dropdown-item whitespace-nowrap hover:bg-gray-100" href="#">Setting</a>
+                      </li>
+                    </ul>
+                    <div class="py-3 font-semibold text-center text-white cursor-pointer bg-secondary">
+                      Log Out
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mx-auto ">
+            <div class="flex flex-col gap-4 p-4">
+                <div class="flex flex-col gap-4 sm:flex-row">
+                    <div class="relative inline-flex w-full sm:w-8/12">
+                        <svg class="absolute w-4 h-4 -translate-y-1/2 pointer-events-none right-4 top-1/2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232">
+                            <path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="#648299" fill-rule="nonzero"></path>
+                        </svg>
+                        <select class="w-full h-12 pl-4 pr-10 bg-white border border-gray-400 rounded-md appearance-none text-gray hover:border-gray-400 focus:outline-none">
+                            <option>Select Relationship</option>
+                            <option>Father</option>
+                            <option>Mother</option>
+                            <option>Sister</option>
+                            <option>Brother</option>
+                            <option>Daughter</option>
+                            <option>Son</option>
+                            <option>Father In Law</option>
+                            <option>Mother In Law</option>
+                            <option>Brother In Law</option>
+                            <option>Sister In Law</option>
+                            <option>Son In Law</option>
+                            <option>Uncle</option>
+                            <option>Aunty</option>
+                            <option>Nephew</option>
+                            <option>Neice</option>
+                            <option>Grandmother</option>
+                            <option>Granddaughter</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="relative inline-flex w-full sm:w-4/12">
+                        <svg class="absolute w-4 h-4 -translate-y-1/2 pointer-events-none right-4 top-1/2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232">
+                            <path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="#648299" fill-rule="nonzero"></path>
+                        </svg>
+                        <select class="w-full h-12 pl-4 pr-10 bg-white border border-gray-400 rounded-md appearance-none text-gray hover:border-gray-400 focus:outline-none">
+                            <option>Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4 sm:flex-row">
+                    <div class="w-full sm:w-8/12">
+                        <h4 class="mb-2 font-light text-gray">Enter Patient Name</h4>
+                        <input placeholder="Write name here" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                    <div class="w-full sm:w-4/12">
+                        <h4 class="mb-2 font-light text-gray">Date of birth</h4>
+                        <input class="w-full h-12 p-1 border border-gray-400 rounded-md text-gray focus:outline-none" type="date">
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4 sm:flex-row">
+                    <div class="w-full">
+                        <input placeholder="Father name" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                    <div class="w-full">
+                        <input placeholder="Mother name" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                </div>
+                <div class="flex flex-col items-end gap-4 sm:flex-row">
+                    <div class="w-full">
+                        <h4 class="mb-2 font-light text-gray">Identity Number (Optional)</h4>
+                        <input placeholder="Birth certificate number" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                    <div class="w-full">
+                        <input placeholder="Write name here" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4 sm:flex-row">
+                    <div class="w-full sm:w-8/12">
+                        <h4 class="mb-2 font-light text-gray">Enter Address</h4>
+                        <input placeholder="Write address" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                    <div class="w-full sm:w-4/12">
+                        <h4 class="mb-2 font-light text-gray">Postal Address</h4>
+                        <input placeholder="Post office" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4 sm:flex-row">
+                    <div class="w-full">
+                        <input placeholder="Police Station" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                    <div class="w-full">
+                        <input placeholder="District" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                    <div class="w-full">
+                        <input placeholder="Division" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4 sm:flex-row">
+                    <div class="w-full">
+                        <h4 class="mb-2 font-light text-gray">Emergency contact</h4>
+                        <input placeholder="Write name here" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                    <div class="w-full">
+                        <h4 class="mb-2 font-light text-gray">Date of birth</h4>
+                        <div class="relative inline-flex w-full">
+                            <svg class="absolute w-4 h-4 -translate-y-1/2 pointer-events-none right-4 top-1/2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 232">
+                                <path d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z" fill="#648299" fill-rule="nonzero"></path>
+                            </svg>
+                            <select class="w-full h-12 pl-4 pr-10 bg-white border border-gray-400 rounded-md appearance-none text-gray hover:border-gray-400 focus:outline-none">
+                                <option>Select Relationship</option>
+                                <option>Father</option>
+                                <option>Mother</option>
+                                <option>Sister</option>
+                                <option>Brother</option>
+                                <option>Daughter</option>
+                                <option>Son</option>
+                                <option>Father In Law</option>
+                                <option>Mother In Law</option>
+                                <option>Brother In Law</option>
+                                <option>Sister In Law</option>
+                                <option>Son In Law</option>
+                                <option>Uncle</option>
+                                <option>Aunty</option>
+                                <option>Nephew</option>
+                                <option>Neice</option>
+                                <option>Grandmother</option>
+                                <option>Granddaughter</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4 sm:flex-row">
+                    <div class="w-full">
+                        <h4 class="mb-2 font-light text-gray">Phone number</h4>
+                        <input placeholder="01XXXXXXXXX" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                    <div class="w-full">
+                        <h4 class="mb-2 font-light text-gray">Mobile number</h4>
+                        <input placeholder="01XXXXXXXXX" class="w-full h-12 px-4 border border-gray-400 rounded-md text-gray focus:outline-none" type="text">
+                    </div>
+                </div>
+                <div class="inline-block">
+                    <div class="flex flex-col w-8/12 gap-4 p-2 border-2 border-gray-200 rounded-lg sm:w-4/12 sm:flex-row min-w-fit"> 
+                        <div class="relative w-full min-w-[8rem] min-h-[8rem] bg-gray-light rounded-lg pt-[50%]">
+                            <div class="absolute top-0 bottom-0 left-0 right-0 p-4">
+                                <h4 class="text-sm text-center text-gray">Upload File</h4>
+                                <label class="flex items-center justify-center h-full pb-10 text-gray">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path>
+                                      </svg>
+                                      <input class="hidden" type="file" name="upload-file" id="upload-img">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="relative w-full min-w-[8rem] min-h-[8rem] bg-white border border-gray-200 rounded-lg pt-[50%]">
+                            <div class="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center text-gray">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="inline-block w-full px-4 py-3 text-sm font-medium text-center text-white rounded-md md:w-1/2 bg-primary">
+                        Submit Application
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
