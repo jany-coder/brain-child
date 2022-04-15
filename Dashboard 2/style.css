@@ -36,7 +36,52 @@ body {
   background-color: var(--gray-light);
 }
 
-  
+
+/*------------------------------------*\
+  #COLOR
+\*------------------------------------*/
+
+.text-primary {
+  color: var(--primary)
+}
+
+.text-secondary {
+  color: var(--secondary)
+}
+
+.text-gray-2 {
+  color: var(--gray-2)
+}
+.text-gray-3 {
+  color: var(--gray-3)
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-dark-blue {
+  background-color: var(--dark-blue);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+
+/*------------------------------------*\
+  #NAVBAR
+\*------------------------------------*/
+.dropdown .dropdown-menu {
+  display: none;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+
+
+/*------------------------------------*\
+  #SIDEBAR
+\*------------------------------------*/
 .sidebar{
   position: fixed;
   top: 0;
@@ -135,8 +180,7 @@ body {
 }
 .sidebar .nav-links li .sub-menu{
   padding: 6px 6px 14px 80px;
-  margin-top: -10px;
-  background: var(--secondary);
+  background: var(--primary);
   display: none;
 }
 .sidebar .nav-links li.showMenu .sub-menu{
@@ -145,7 +189,7 @@ body {
 .sidebar .nav-links li .sub-menu a{
   color: #fff;
   font-size: 15px;
-  padding: 5px 0;
+  padding: 5px;
   white-space: nowrap;
   opacity: 0.6;
   transition: all 0.3s ease;
@@ -254,13 +298,10 @@ body {
   height: 60px;
   display: flex;
   align-items: center;
-  position: fixed;
-  z-index: 99;
-  background-color: #fff;
 }
 .home-section .home-content .bx-menu,
 .home-section .home-content .text{
-  color: #11101d;
+  color: #FFF;
   font-size: 35px;
 }
 .home-section .home-content .bx-menu{
