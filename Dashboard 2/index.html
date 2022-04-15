@@ -18,9 +18,12 @@
 
 <body>
   <div class="sidebar close">
-    <div class="logo-details">
+    <div class="logo-details relative">
       <i class='bx bxl-c-plus-plus'></i>
       <img class="logo_name" src="images/Brainchild.png" alt="">
+      <div class="home-content bg-secondary absolute flex justify-center items-center -right-20 z-50">
+        <i class='bx bx-menu'></i>
+      </div>
     </div>
     <ul class="nav-links">
       <li>
@@ -137,15 +140,11 @@
     </ul>
   </div>
   <section class="home-section">
-    <section>
+    <section class="relative">
       <!-- navbar start -->
-      <nav class="bg-secondary w-full">
-        <div class="px-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div class="relative flex items-center justify-between h-16">
-            <div class="home-content">
-              <i class='bx bx-menu'></i>
-              <span class="text">Menu</span>
-            </div>
+      <nav class="bg-secondary fixed left-auto top-0 right-0 z-50 w-full">
+        <div class="px-2 mx-auto max-w-[102rem] sm:px-6 lg:px-8">
+          <div class="relative flex items-center justify-end h-16">
             <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
       
               <!-- Profile dropdown -->
@@ -178,7 +177,7 @@
                     </svg>
                     <span class="text-white bg-red-500 absolute rounded-full text-xs -mt-6 ml-4 py-0 px-1.5 h-6 w-6 flex justify-center items-center border-2 border-white">1</span>
                   </div>
-                  <div class="absolute left-auto z-50 hidden float-left py-2 m-0 mt-0 overflow-hidden text-base text-left list-none bg-white border-none rounded-lg shadow-lg -right-20 md:right-0 dropdown-menu w-80 md:w-96 bg-clip-padding" aria-labelledby="dropdownMenuButton1">
+                  <div class="absolute left-auto z-50 hidden float-left py-2 m-0 mt-0 overflow-hidden text-base text-left list-none bg-white border-none rounded-lg shadow-lg -right-20 md:right-0 dropdown-menu w-72 md:w-96 bg-clip-padding" aria-labelledby="dropdownMenuButton1">
                     <div class="flex justify-between p-4 rounded-t-md gap-x-2 bg-zinc-100">
                       <p class="font-medium text-gray">Notifications</p>
                       <p class="font-medium cursor-pointer text-primary">Mark as all read</p>

@@ -312,7 +312,7 @@ body {
   font-size: 26px;
   font-weight: 600;
 }
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .sidebar.close .nav-links li .sub-menu{
     display: none;
   }
@@ -331,4 +331,4 @@ body {
     width: 100%;
     left: 0;
   }
-}
+} */
