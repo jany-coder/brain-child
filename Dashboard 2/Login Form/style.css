@@ -38,63 +38,30 @@ body {
 
 
 /*------------------------------------*\
-  #SLIDE SHOW
+  #COLOR
 \*------------------------------------*/
-  
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+
+.text-primary {
+  color: var(--primary)
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+.text-secondary {
+  color: var(--secondary)
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.text-gray-2 {
+  color: var(--gray-2)
+}
+.text-gray-3 {
+  color: var(--gray-3)
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+.bg-primary {
+  background-color: var(--primary);
 }
-
-.active {
-  background-color: #717171;
+.bg-dark-blue {
+  background-color: var(--dark-blue);
 }
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+.bg-secondary {
+  background-color: var(--secondary);
 }
