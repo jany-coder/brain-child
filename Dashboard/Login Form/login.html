@@ -16,12 +16,12 @@
 
 </head>
 
-<body>
-  <section class="h-screen">
-    <div class="container h-full px-6 mx-auto">
-      <div class="flex flex-wrap items-center justify-center h-full g-6">
-        <div class="py-6 overflow-hidden sm:py-10 sm:h-screen h-96 md:w-8/12 lg:w-6/12">
-          <div id="carouselExampleCaptions" class="relative h-full overflow-hidden rounded-lg carousel slide"
+<body class="bg-gradient-to-r from-[#001527] to-[#000a27]">
+  <section class="h-auto mix-blend-darken:h-screen">
+    <div class="container h-full px-6 py-6 mx-auto md:py-0">
+      <div class="flex flex-col items-center justify-center h-auto gap-4 md:gap-6 md:h-full md:flex-row lg:gap-10">
+        <div class="w-full overflow-hidden md:h-screen h-72 md:w-6/12 lg:w-7/12 2xl:w-8/12">
+          <div id="carouselExampleCaptions" class="relative h-full overflow-hidden carousel slide"
             data-bs-ride="carousel">
             <div class="absolute bottom-0 left-0 right-0 flex justify-center p-0 mb-4 carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -87,36 +87,36 @@
             </button>
           </div>
         </div>
-        <div class="w-full py-4 sm:py-10 md:w-8/12 lg:w-5/12 lg:ml-20">
+        <div style="background-color: rgba(106, 106, 106, 0.2);" class="w-full shadow rounded-md p-4 sm:p-6 text-white md:w-6/12 lg:w-5/12 2xl:w-4/12">
           <form>
             <h2 class="py-0 text-5xl font-medium sm:py-4">Login</h2>
             <div class="mx-auto">
               <div class="py-2">
                 <span class="px-1 font-medium">E-mail</span>
                 <input placeholder="name@gmail.com" type="text"
-                  class="block w-full px-3 py-3 mt-2 placeholder-gray-400 bg-white border border-gray-300 rounded-lg text-md focus:placeholder-gray-500 focus:outline-none">
+                  class="block w-full px-3 text-primary py-3 mt-2 placeholder-gray-400 bg-white border border-gray-300 rounded-lg text-md focus:placeholder-gray-500 focus:outline-none">
               </div>
               <div class="py-2">
                 <span class="px-1 font-medium">Password</span>
                 <div class="relative">
                   <input id="password" placeholder="6+ character, 1 capital letter"
-                    class="block w-full px-3 py-3 mt-2 placeholder-gray-400 bg-white border border-gray-300 rounded-lg focus:placeholder-gray-500 text-md focus:outline-none">
+                    class="block w-full text-primary px-3 py-3 mt-2 placeholder-gray-400 bg-white border border-gray-300 rounded-lg focus:placeholder-gray-500 text-md focus:outline-none">
                   <div class="absolute inset-y-0 right-0 flex items-center pr-3 text-xl leading-5">
                     <i id="toggle-password" class="fa-solid fa-eye-slash"></i>
                   </div>
                 </div>
               </div>
               <div class="flex justify-between">
-                <label class="flex items-center gap-2 my-4 font-bold text-gray-500">
-                  <input type="checkbox" class="w-5 h-5 leading-loose text-pink-600"> 
+                <label class="flex items-center gap-2 my-4 font-bold text-white">
+                  <input type="checkbox" class="w-5 h-5 leading-loose"> 
                   <span> Remember Me </span>
                 </label> 
-                <label class="block my-4 font-bold text-gray-500"><a href="#"
+                <label class="block my-4 font-bold text-white"><a href="#"
                     class="tracking-tighter border-b-2 border-gray-200 cursor-pointer hover:border-gray-400"><span>Forgot
                       Password?</span></a>
                 </label>
               </div> 
-                <button class="block w-full px-6 py-3 mt-3 text-lg font-semibold text-white rounded-lg shadow-xl bg-secondary hover:text-white hover:bg-blue-600">
+                <button class="block w-full px-6 py-3 mt-3 text-lg font-semibold text-white rounded-lg shadow-xl bg-secondary transition-all hover:text-white hover:bg-blue-600">
                 Login
               </button>
             </div>
